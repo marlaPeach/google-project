@@ -9,21 +9,21 @@
     margin-top: 200px;
 }
 
-/* .outer-div {
+.google-image {
     display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-} */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
-.right-justified {
+.right {
     display: flex;
     justify-self: right;
     justify-content: right;
     width: 50%;
 }
 
-.left-justified {
+.left {
     justify-self: left;
     justify-content: left;
     width: 50%;
