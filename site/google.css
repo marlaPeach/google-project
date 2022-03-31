@@ -1,1 +1,85 @@
 /* fill in styles here */
+.centered-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 200px;
+}
+
+/* .outer-div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+} */
+
+.right-justified {
+    display: flex;
+    justify-self: right;
+    justify-content: right;
+    width: 50%;
+}
+
+.left-justified {
+    justify-self: left;
+    justify-content: left;
+    width: 50%;
+}
+
+.footer {
+    position: fixed;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    background-color: #E8E8EF;
+}
+
+a {
+    color: #41403F;
+    padding: 8px;
+    margin: 8px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+}
+
+input {
+    border-radius: 12px;
+    border-width: 1px;
+    border-color: #E8E8EF;
+    height: 25px;
+    width: 300px;
+}
+
+input:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.search-input {
+    width: 25%;
+}
+
+.search-buttons {
+    margin: 10px;
+    border-radius: 4px;
+    
+}
