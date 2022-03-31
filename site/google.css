@@ -11,9 +11,8 @@
 
 .google-image {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-self: center;
+    align-self: center;
 }
 
 .right {
